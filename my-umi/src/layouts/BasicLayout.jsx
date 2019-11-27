@@ -63,7 +63,8 @@ const defaultFooterDom = (
 
 const footerRender = () => {
   if (!isAntDesignPro()) {
-    return defaultFooterDom;
+    // return defaultFooterDom;
+    return <></>
   }
 
   return (
@@ -140,14 +141,13 @@ const BasicLayout = props => {
         if (menuItemProps.isUrl || menuItemProps.children) {
           return defaultDom;
         }
-
         return <Link to={menuItemProps.path}>{defaultDom}</Link>;
       }}
       breadcrumbRender={(routers = []) => [
         {
           path: '/',
           breadcrumbName: formatMessage({
-            id: 'menu.home',
+            id: 'system.name',
             defaultMessage: 'Home',
           }),
         },

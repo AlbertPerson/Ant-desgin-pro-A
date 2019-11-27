@@ -1,7 +1,12 @@
 export default {
+  'system.name':'考试系统',
+  'menu.function':'功能',
+  'menu.function.category':'类别',
+  'menu.function.record':'录题',
+  'menu.function.test':'考试',
   'menu.welcome': '欢迎',
   'menu.more-blocks': '更多区块',
-  'menu.home': '首页',
+  'menu.home': '首页', 
   'menu.admin': '管理页',
   'menu.login': '登录',
   'menu.register': '注册',
