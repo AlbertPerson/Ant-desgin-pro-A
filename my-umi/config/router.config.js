@@ -53,10 +53,22 @@ export default [
                 component: './Function/RecordPage',
               },
               {
+                name: 'teststart',              
+                path: '/test/teststart',
+                hideInMenu: 'true',
+                component: './Function/TestPage/TestStart',
+              },
+              {
+                name: 'testdetail',               
+                path: '/test/testdetail',
+                hideInMenu: 'true',
+                component: './Function/TestPage/TestDetail',
+              },
+              {
                 name: 'test',
                 path: '/test',
                 component: './Function/TestPage',
-              },             
+              },
             ],
           },
           {

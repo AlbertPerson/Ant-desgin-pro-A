@@ -4,6 +4,8 @@ export default {
   'menu.function.category':'类别',
   'menu.function.record':'录题',
   'menu.function.test':'考试',
+  'menu.function.teststart':'开始考试',
+  'menu.function.testdetail':'考试详情',
   'menu.welcome': '欢迎',
   'menu.more-blocks': '更多区块',
   'menu.home': '首页', 

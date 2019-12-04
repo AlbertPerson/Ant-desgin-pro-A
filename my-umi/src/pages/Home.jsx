@@ -4,23 +4,9 @@ import { PageHeaderWrapper } from '@ant-design/pro-layout';
 import styles from './Home.less';
 
 
-export default () => {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-  }, []);
+export default () => { 
   return (
-    <PageHeaderWrapper title=" " className={styles.main}>
-      <div
-        style={{
-          paddingTop: 100,
-          textAlign: 'center',
-        }}
-      >
-        <Spin spinning={loading} size="large"></Spin>
-      </div>    
+    <PageHeaderWrapper title=" " className={styles.main}>      
       <div style={{
         paddingBottom:80,
         fontSize:48,
